@@ -33,13 +33,15 @@
 |`BootCampAcademy`| `Add(string course)` modify method to check if full| add course to List<strig> member| bool             |
 
 
-4. As a manager at the Academy, I'd like to be able to change the capacity of Learning Plans.
+4. As a manager at the Academy, I'd like to be able to change the capacity of Learning Plans.  
+
 | Classes         | Methods                                            | Scenario                        | Outputs          |
 |-----------------|----------------------------------------------------|---------------------------------|------------------|
 |`BootCampAcademy`|  public int LearningPlanMax { get; set; } = 3;     | propety to set max number       | int number       |
 
 
-5. As a student of the Academy, I'd like to know that if I try to remove an item that doesn't exist in my Learning Plan.
+5. As a student of the Academy, I'd like to know that if I try to remove an item that doesn't exist in my Learning Plan.  
+
 | Classes         | Methods                                            | Scenario                        | Outputs          |
 |-----------------|----------------------------------------------------|---------------------------------|------------------|
 |`BootCampAcademy`| `Remove(string course)`                            | If product is in list, add cost | bool             | 
