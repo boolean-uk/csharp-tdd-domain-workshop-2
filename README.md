@@ -20,12 +20,14 @@
 |`BootCampAcademy`| `Add(string course)`                               | add course to List<string> member| bool             | 
 
 
-2. As a student of the Academy if I change my mind I want to be able to remove a course from my Learning Plan.
+2. As a student of the Academy if I change my mind I want to be able to remove a course from my Learning Plan.  
+
 | Classes         | Methods                                            | Scenario                        | Outputs          |
 |-----------------|----------------------------------------------------|---------------------------------|------------------|
-|`BootCampAcademy`| `Remove(string course)`                            | add course to List<string> member| bool             | 
+|`BootCampAcademy`| `Remove(string course)`                            | add course to List<string> member| bool            | 
 
-3. As a student of the Academy I'd like to know when my Learning plan is full, when I try to add another item (Course, Tutorial, Certification) to it.
+3. As a student of the Academy I'd like to know when my Learning plan is full, when I try to add another item (Course, Tutorial, Certification) to it.  
+
 | Classes         | Methods                                            | Scenario                        | Outputs          |
 |-----------------|----------------------------------------------------|---------------------------------|------------------|
 |`BootCampAcademy`|  public int LearningPlanMax { get; set; } = 3;     | propety to set max number       | int number       |
